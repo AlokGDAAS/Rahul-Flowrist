@@ -15,7 +15,7 @@ const Products = () => {
   };
 
   // Default state: Darbaar
-  const [data, setData] = useState(categories.darbaar);
+  const [data, setData] = useState(categories.phool_bangla);
 
   return (
     <div>
