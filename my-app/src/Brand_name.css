@@ -1,0 +1,58 @@
+.rf-container{
+  display:inline-flex;
+  gap:12px;
+  align-items:center;
+  justify-content:center;
+  user-select:none;
+  -webkit-user-select:none;
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+.rf-word{
+  display:inline-block;
+  font-weight:700;
+  line-height:1;
+  transform-origin:center;
+}
+
+/* style for "rahul" — elegant serif with soft gradient and subtle shadow */
+.rf-first{
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 5vw, 54px);
+  background: linear-gradient(90deg, #FF6BA7 0%, #FF9DB6 40%, #FFD57E 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 8px 20px rgba(133,77,120,0.10);
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+
+/* style for "flower" — light modern sans with outline and a floral accent */
+.rf-second{
+  font-family: 'Poppins', 'Inter', system-ui, Arial;
+  font-size: clamp(24px, 4vw, 40px);
+  font-weight:600;
+  color: #2b2b2b;
+  position:relative;
+  padding:6px 10px;
+}
+
+/* small floral stroke before the word */
+.rf-second::before{
+  content: '';
+  width:12px; height:12px; border-radius:50%;
+  background: radial-gradient(circle at 35% 30%, #fff 0%, transparent 40%), linear-gradient(180deg,#FFD57E,#FFB84C);
+  display:inline-block; margin-right:10px; vertical-align:middle; box-shadow:0 6px 12px rgba(255,150,180,0.12);
+  transform: translateY(-2px);
+}
+
+/* subtle hover/active interactions */
+.rf-container:hover .rf-first{ transform: translateY(-4px) scale(1.02); transition: transform 320ms cubic-bezier(.2,.9,.2,1); }
+.rf-container:hover .rf-second{ transform: translateY(2px); transition: transform 320ms cubic-bezier(.2,.9,.2,1); }
+
+/* small responsive tweaks */
+@media (max-width:520px){
+  .rf-first{ font-size:28px }
+  .rf-second{ font-size:22px }
+}

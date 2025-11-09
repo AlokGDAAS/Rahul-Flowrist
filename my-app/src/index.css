@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root{
+  --primary:rgb(5, 99, 5);
+  --secondary:rgb(255, 106, 0);
+  --ternary:rgb(75, 75, 133);
+  --black:black;
+  --white:white;
+}

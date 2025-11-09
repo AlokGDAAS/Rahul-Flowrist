@@ -1,0 +1,451 @@
+export   const darbar_data = [
+        {
+            id:1,
+            img:"Darbaar/darbar_1.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:2,
+            img:"Darbaar/darbar_2.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:3,
+            img:"Darbaar/darbar_3.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:4,
+            img:"Darbaar/darbar_4.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:5,
+            img:"Darbaar/darbar_5.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:6,
+            img:"Darbaar/darbar_6.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:7,
+            img:"Darbaar/darbar_7.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:8,
+            img:"Darbaar/darbar_8.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:9,
+            img:"Darbaar/darbar_9.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:10,
+            img:"Darbaar/darbar_10.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:11,
+            img:"Darbaar/darbar_11.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:12,
+            img:"Darbaar/darbar_12.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:13,
+            img:"Darbaar/darbar_13.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:14,
+            img:"Darbaar/darbar_14.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:15,
+            img:"Darbaar/darbar_15.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:16,
+            img:"Darbaar/darbar_18.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:17,
+            img:"Darbaar/darbar_17.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:18,
+            img:"Darbaar/darbar_18.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:19,
+            img:"Darbaar/darbar_19.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:20,
+            img:"Darbaar/darbar_20.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:21,
+            img:"Darbaar/darbar_21.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:22,
+            img:"Darbaar/darbar_22.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:23,
+            img:"Darbaar/darbar_23.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:24,
+            img:"Darbaar/darbar_24.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+    ]
+export   const phool_bangla_data = [
+        {
+            id:1,
+            img:"Phool_Bangla/bangla_1.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:2,
+            img:"Phool_Bangla/bangla_2.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:3,
+            img:"Phool_Bangla/bangla_3.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:4,
+            img:"Phool_Bangla/bangla_4.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:5,
+            img:"Phool_Bangla/bangla_5.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:6,
+            img:"Phool_Bangla/bangla_6.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:7,
+            img:"Phool_Bangla/bangla_7.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:8,
+            img:"Phool_Bangla/bangla_8.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:9,
+            img:"Phool_Bangla/bangla_9.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:10,
+            img:"Phool_Bangla/bangla_10.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:11,
+            img:"Phool_Bangla/bangla_11.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:12,
+            img:"Phool_Bangla/bangla_12.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:13,
+            img:"Phool_Bangla/bangla_13.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:14,
+            img:"Phool_Bangla/bangla_14.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:15,
+            img:"Phool_Bangla/bangla_15.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:16,
+            img:"Phool_Bangla/bangla_18.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:17,
+            img:"Phool_Bangla/bangla_17.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:18,
+            img:"Phool_Bangla/bangla_18.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:19,
+            img:"Phool_Bangla/bangla_19.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:20,
+            img:"Phool_Bangla/bangla_20.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:21,
+            img:"Phool_Bangla/bangla_21.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:22,
+            img:"Phool_Bangla/bangla_22.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:23,
+            img:"Phool_Bangla/bangla_23.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:24,
+            img:"Phool_Bangla/bangla_24.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:25,
+            img:"Phool_Bangla/bangla_25.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+    ]
+
+export   const singhasan_data = [
+        {
+            id:1,
+            img:"Singhasan/singhasan_1.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:2,
+            img:"Singhasan/singhasan_2.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:3,
+            img:"Singhasan/singhasan_3.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:4,
+            img:"Singhasan/singhasan_4.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:5,
+            img:"Singhasan/singhasan_5.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:6,
+            img:"Singhasan/singhasan_6.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:7,
+            img:"Singhasan/singhasan_7.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:8,
+            img:"Singhasan/singhasan_8.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:9,
+            img:"Singhasan/singhasan_9.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:10,
+            img:"Singhasan/singhasan_10.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:11,
+            img:"Singhasan/singhasan_11.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:12,
+            img:"Singhasan/singhasan_12.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:13,
+            img:"Singhasan/singhasan_13.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:14,
+            img:"Singhasan/singhasan_14.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:15,
+            img:"Singhasan/singhasan_15.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:16,
+            img:"Singhasan/singhasan_16.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:17,
+            img:"Singhasan/singhasan_17.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:18,
+            img:"Singhasan/singhasan_18.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:19,
+            img:"Singhasan/singhasan_19.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:20,
+            img:"Singhasan/singhasan_20.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:21,
+            img:"Singhasan/singhasan_21.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:22,
+            img:"Singhasan/singhasan_22.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:23,
+            img:"Singhasan/singhasan_23.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:24,
+            img:"Singhasan/singhasan_24.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:25,
+            img:"Singhasan/singhasan_25.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+]    
