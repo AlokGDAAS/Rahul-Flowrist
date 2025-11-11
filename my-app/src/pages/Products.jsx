@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import Card from "../components/Card";
-import { darbar_data, phool_bangla_data,singhasan_data } from "../components/Data";
+import { darbar_data, phool_bangla_data,singhasan_data,gate_data,jhoomar_data } from "../components/Data";
 
 const Products = () => {
   // Define all categories here
   const categories = {
     darbaar: { head: "Darbaar", d: darbar_data },
     phool_bangla: { head: "Phool Bangla", d: phool_bangla_data },
-    gate: { head: "Gate", d: [] },
-    jhoomar: { head: "Jhoomar", d: [] },
+    gate: { head: "Gate", d: gate_data },
+    jhoomar: { head: "Jhoomar", d: jhoomar_data },
     singhasan: { head: "Singhasan", d: singhasan_data },
     jaimala: { head: "Jaimala", d: [] },
     jewellery: { head: "Jewellery", d: [] }

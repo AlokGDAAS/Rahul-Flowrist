@@ -449,3 +449,87 @@ export   const singhasan_data = [
             name:"Khatu Shyam Darbaar"
         },
 ]    
+
+export const gate_data = [
+        {
+            id:1,
+            img:"Gate/gate_1.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:2,
+            img:"Gate/gate_2.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:3,
+            img:"Gate/gate_3.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:4,
+            img:"Gate/gate_4.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:5,
+            img:"Gate/gate_5.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:6,
+            img:"Gate/gate_6.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:7,
+            img:"Gate/gate_7.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:8,
+            img:"Gate/gate_8.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+    ]
+export const jhoomar_data = [
+        {
+            id:1,
+            img:"jhoomar/Jhoomar_1.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:2,
+            img:"jhoomar/Jhoomar_2.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:3,
+            img:"jhoomar/Jhoomar_3.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:4,
+            img:"jhoomar/Jhoomar_4.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:5,
+            img:"jhoomar/Jhoomar_5.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+
+    ]
