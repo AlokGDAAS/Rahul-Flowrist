@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Card from "../components/Card";
-import { darbar_data, phool_bangla_data,singhasan_data,gate_data,jhoomar_data } from "../components/Data";
+import { darbar_data, phool_bangla_data,singhasan_data,gate_data,jhoomar_data,jaimala_data } from "../components/Data";
 
 const Products = () => {
   // Define all categories here
@@ -10,7 +10,7 @@ const Products = () => {
     gate: { head: "Gate", d: gate_data },
     jhoomar: { head: "Jhoomar", d: jhoomar_data },
     singhasan: { head: "Singhasan", d: singhasan_data },
-    jaimala: { head: "Jaimala", d: [] },
+    jaimala: { head: "Jaimala", d: jaimala_data },
     jewellery: { head: "Jewellery", d: [] }
   };
 

@@ -35,7 +35,7 @@ const Card = ({ img, name, alt = "" }) => {
           <img
             src={img}
             alt={alt}
-            className='w-full   shadow-lg'
+            className='h-[95vh] shadow-lg'
           />
         </div>
       )}
