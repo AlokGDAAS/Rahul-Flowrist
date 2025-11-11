@@ -1,7 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Card = ({ img, name, alt = "" }) => {
   const [open, setOpen] = useState(false);
+
+  // Handle browser back button
+  useEffect(() => {
+    if (open) {
+      // push fake state for modal
+      window.history.pushState({ modal: true }, "");
+    }
+
+    const handlePop = () => {
+      if (open) {
+        setOpen(false);   // close modal instead of leaving site
+      }
+    };
+
+    window.addEventListener("popstate", handlePop);
+
+    return () => {
+      window.removeEventListener("popstate", handlePop);
+    };
+  }, [open]);
 
   return (
     <>
@@ -23,15 +43,16 @@ const Card = ({ img, name, alt = "" }) => {
       {open && (
         <div className='fixed inset-0 bg-black/80 backdrop-blur-sm flex justify-center items-center z-50'>
           
-          {/* Close Button */}
           <button
             className='absolute top-4 left-4 text-white text-3xl font-bold'
-            onClick={() => setOpen(false)}
+            onClick={() => {
+              setOpen(false);
+              window.history.back(); // remove fake history
+            }}
           >
             ×
           </button>
 
-          {/* Image Preview */}
           <img
             src={img}
             alt={alt}
@@ -44,3 +65,4 @@ const Card = ({ img, name, alt = "" }) => {
 };
 
 export default Card;
+
