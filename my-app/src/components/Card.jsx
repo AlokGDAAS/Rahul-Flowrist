@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
+import { SiWhatsapp } from "react-icons/si";
+import { MdOutlineCall } from "react-icons/md";
 
 const Card = ({ img, name, alt = "" }) => {
   const [open, setOpen] = useState(false);
@@ -12,7 +14,7 @@ const Card = ({ img, name, alt = "" }) => {
 
     const handlePop = () => {
       if (open) {
-        setOpen(false);   // close modal instead of leaving site
+        setOpen(false); // close modal instead of leaving site
       }
     };
 
@@ -25,26 +27,38 @@ const Card = ({ img, name, alt = "" }) => {
 
   return (
     <>
-      <div className=' bg-blue-100 rounded h-fit'>
+      <div className="  rounded h-fit  border border-gray-400 p-1 shadow-lg bg-blue-100">
         <div>
           <img
             src={img}
             alt={alt}
-            className='md:w-80 rounded-t cursor-pointer'
+            className="md:w-80 rounded-t cursor-pointer"
             onClick={() => setOpen(true)}
           />
         </div>
 
-        <div className='flex justify-center items-end'>
-          <p className='text-gray-600 font-bold text-lg text-center'>{name}</p>
+        <div className="flex justify-center items-end">
+          <p className="text-gray-600 font-bold text-lg text-center">{name}</p>
+        </div>
+        {/* contact */}
+        <div className="flex justify-between px-2 text-white py-4">
+          <div className="flex items-center gap-2 bg-blue-800 px-4 py-2 rounded-full cursor-pointer shadow-lg">
+            <MdOutlineCall className="text-xl"/>
+            <p className=" font-bold">Call Us</p>
+          </div>
+          <div className="flex items-center gap-2 bg-[#25D366] px-4 py-2 rounded-full cursor-pointer shadow-lg">
+            
+            <SiWhatsapp className="text-xl"/>
+            <p className=" font-bold">WhatsApp</p>
+            
+          </div>
         </div>
       </div>
 
       {open && (
-        <div className='fixed inset-0 bg-black/80 backdrop-blur-sm flex justify-center items-center z-50'>
-          
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex justify-center items-center z-50">
           <button
-            className='absolute top-4 left-4 text-white text-3xl font-bold'
+            className="absolute top-4 left-4 text-white text-3xl font-bold"
             onClick={() => {
               setOpen(false);
               window.history.back(); // remove fake history
@@ -56,7 +70,7 @@ const Card = ({ img, name, alt = "" }) => {
           <img
             src={img}
             alt={alt}
-            className='md:h-[95vh] w-full md:w-auto shadow-lg'
+            className="md:h-[95vh] w-full md:w-auto shadow-lg"
           />
         </div>
       )}
@@ -65,4 +79,3 @@ const Card = ({ img, name, alt = "" }) => {
 };
 
 export default Card;
-
