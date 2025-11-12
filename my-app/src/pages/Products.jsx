@@ -18,9 +18,9 @@ const Products = () => {
   const [data, setData] = useState(categories.phool_bangla);
 
   return (
-    <div className="bg-blue-100 py-8 rounded-lg w-11/12 mx-auto">
+    <div className="bg-blue-100 py-8 rounded-lg w-11/12 mx-auto px-2">
       {/* Category Buttons */}
-      <div className="flex gap-20 font-semibold text-gray-700 mb-4 justify-center md:w-full md:px-4 py-4 w-11/12 mx-auto flex-wrap bg-green-300">
+      <div className="flex md:gap-20 gap-4 font-semibold text-gray-700 mb-4 justify-center md:w-full md:px-4 py-4 w-11/12 mx-auto flex-wrap bg-green-300">
         <p
           className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.phool_bangla)}
