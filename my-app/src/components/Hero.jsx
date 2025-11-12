@@ -13,7 +13,7 @@ const Hero = () => {
           />
         </div>
 
-        <div className="bg-blue-800 text-white md:text-4xl text-sm font-bold text-center rounded-b tracking-wider pb-2 pt-1">
+        <div className="bg-blue-800 text-white md:text-4xl text-xs font-bold text-center rounded-b tracking-wider pb-2 pt-1">
           <p>Add : Manik Chowk , Agra Road Aligarh , 202001</p>
         </div>
       </div>
