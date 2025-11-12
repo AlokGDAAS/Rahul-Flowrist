@@ -44,25 +44,25 @@ const Card = ({ img, name, alt = "" }) => {
         </div>
         {/* contact */}
         <div className="flex justify-between px-2 text-white py-4">
-          <div className="flex items-center gap-2 bg-blue-800 px-4 py-2 rounded-full cursor-pointer shadow-lg">
-            <a href={`tel:${phoneNumber}`}>
+          <a href={`tel:${phoneNumber}`}>
+            <div className="flex items-center gap-2 bg-blue-800 px-4 py-2 rounded-full cursor-pointer shadow-lg">
               <MdOutlineCall className="text-xl" />
               <p className=" font-bold">Call Us</p>
-            </a>
-          </div>
-          <div className="flex items-center gap-2 bg-[#25D366] px-4 py-2 rounded-full cursor-pointer shadow-lg">
-            <a
-              href={`https://wa.me/${phoneNumber.replace(
-                /[^0-9]/g,
-                ""
-              )}?text=${encodeURIComponent(whatsappMessage)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            </div>
+          </a>
+          <a
+            href={`https://wa.me/${phoneNumber.replace(
+              /[^0-9]/g,
+              ""
+            )}?text=${encodeURIComponent(whatsappMessage)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="flex items-center gap-2 bg-[#25D366] px-4 py-2 rounded-full cursor-pointer shadow-lg">
               <SiWhatsapp className="text-xl" />
               <p className=" font-bold">WhatsApp</p>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
 
