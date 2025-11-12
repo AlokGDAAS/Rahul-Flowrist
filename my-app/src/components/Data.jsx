@@ -759,3 +759,186 @@ export const jaimala_data = [
 
 
     ]
+
+    export const videos_data = [
+        {
+            id:1,
+            src:"Videos/v_1.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:2,
+            src:"Videos/v_2.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:3,
+            src:"Videos/v_3.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:4,
+            src:"Videos/v_4.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:5,
+            src:"Videos/v_5.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:6,
+            src:"Videos/v_6.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:7,
+            src:"Videos/v_7.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:8,
+            src:"Videos/v_8.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:9,
+            src:"Videos/v_9.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:10,
+            src:"Videos/v_10.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:11,
+            src:"Videos/v_11.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:12,
+            src:"Videos/v_12.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:13,
+            src:"Videos/v_13.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:14,
+            src:"Videos/v_14.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:15,
+            src:"Videos/v_15.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:16,
+            src:"Videos/v_16.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:17,
+            src:"Videos/v_17.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        },
+        {
+            id:18,
+            src:"Videos/v_18.mp4",
+            autoplay:"false",
+            loop:"false",
+            muted:"false",
+            poster:""
+            
+
+        }
+    ]

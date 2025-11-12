@@ -1,6 +1,15 @@
 import React, { useState } from "react";
 import Card from "../components/Card";
-import { darbar_data, phool_bangla_data,singhasan_data,gate_data,jhoomar_data,jaimala_data } from "../components/Data";
+import {
+  darbar_data,
+  phool_bangla_data,
+  singhasan_data,
+  gate_data,
+  jhoomar_data,
+  jaimala_data,
+  videos_data,
+} from "../components/Data";
+import Video_card from "../components/Video_card";
 
 const Products = () => {
   // Define all categories here
@@ -11,77 +20,99 @@ const Products = () => {
     jhoomar: { head: "Jhoomar", d: jhoomar_data },
     singhasan: { head: "Singhasan", d: singhasan_data },
     jaimala: { head: "Jaimala", d: jaimala_data },
-    jewellery: { head: "Jewellery", d: [] }
+    jewellery: { head: "Jewellery", d: [] },
+    videos: { head: "Videos", d: videos_data },
   };
 
-  // Default state: Darbaar
+  // Default state: Phool Bangla
   const [data, setData] = useState(categories.phool_bangla);
 
   return (
     <div className="bg-blue-400 py-8 rounded-lg w-[95vw] mx-auto px-2">
       {/* Category Buttons */}
-      <div className="flex md:gap-20 gap-4 font-semibold text-gray-700 mb-4 justify-center px-4 py-4  mx-auto flex-wrap bg-green-300 rounded shadow-lg">
-        <p
+      <div className="flex md:gap-20 gap-4 font-semibold text-gray-700 mb-4 justify-center px-4 py-4 mx-auto flex-wrap bg-green-300 rounded shadow-lg">
+        <div
           className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.phool_bangla)}
         >
           Phool Bangla
-        </p>
+        </div>
 
-        <p
+        <div
           className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.darbaar)}
         >
           Darbaar
-        </p>
+        </div>
 
-        <p className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+        <div
+          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.gate)}
         >
           Gate
-        </p>
+        </div>
 
-        <p className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+        <div
+          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.jhoomar)}
         >
           Jhoomar
-        </p>
+        </div>
 
-        <p className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+        <div
+          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.singhasan)}
         >
           Singhasan
-        </p>
+        </div>
 
-        <p className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+        <div
+          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.jaimala)}
         >
           Jaimala
-        </p>
+        </div>
 
-        <p className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+        <div
+          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.jewellery)}
         >
           Jewellery
-        </p>
+        </div>
+
+        <div
+          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+          onClick={() => setData(categories.videos)}
+        >
+          Videos
+        </div>
       </div>
 
       {/* Category Title */}
       <div>
-        <h1 className="text-center pb-6 text-4xl font-bold text-gray-800">
+        <h1 className="text-center mb-6 text-4xl font-bold text-gray-800">
           {data.head}
         </h1>
       </div>
 
-      {/* Cards */}
+      {/* Cards or Videos */}
       <div className="flex gap-8 flex-wrap justify-center">
-        {data.d.map((item) => (
-          <Card key={item.id} img={item.img} alt={item.alt} name={item.name} />
-        ))}
+        {data.head === "Videos"
+          ? data.d.map((item) => (
+              <Video_card
+                key={item.id}
+                src={item.src}
+                poster={item.poster}
+              />
+            ))
+          : data.d.map((item) => (
+              <Card key={item.id} img={item.img} alt={item.alt} name={item.name} />
+            ))}
       </div>
     </div>
   );
 };
 
 export default Products;
+
 

@@ -7,9 +7,9 @@ const Navbar = () => {
     <div>
       <div className="p-2 bg-[var(--primary)]"></div>
       <div className="bg-[var(--ternary)]">
-        <p className="text-center">
+        <div className="text-center">
           <Brand_name/>
-        </p>
+        </div>
       </div>
     </div>
   );
