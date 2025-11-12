@@ -6,7 +6,7 @@ import Brand_name_2 from '../components/Brand_name_2'
 
 const Home = () => {
   return (
-    <div className='mx-auto p-4 bg-blue-400'>
+    <div className='mx-auto p-2 bg-blue-400'>
       <Hero/>
       
       <Products/>

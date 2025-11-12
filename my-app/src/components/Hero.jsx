@@ -4,7 +4,7 @@ import Image_slide from "./Image_slide";
 const Hero = () => {
   return (
     <div>
-      <div className="w-[95vw] mx-auto mb-8 bg-blue-100 rounded shadow-lg">
+      <div className="w-[95vw] mx-auto mb-4 bg-blue-100 rounded shadow-lg">
         <div>
           <img
             src="./Other/banner_pic_no_bg.png"
