@@ -25,12 +25,12 @@ const Card = ({ img, name, alt = "" }) => {
 
   return (
     <>
-      <div className='p-2 bg-blue-100 rounded-lg h-fit'>
+      <div className=' bg-blue-100 rounded h-fit'>
         <div>
           <img
             src={img}
             alt={alt}
-            className='md:w-80 rounded-lg cursor-pointer'
+            className='md:w-80 rounded-t cursor-pointer'
             onClick={() => setOpen(true)}
           />
         </div>

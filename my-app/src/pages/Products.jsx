@@ -18,48 +18,48 @@ const Products = () => {
   const [data, setData] = useState(categories.phool_bangla);
 
   return (
-    <div>
+    <div className="bg-blue-100 py-8 rounded-lg w-11/12 mx-auto">
       {/* Category Buttons */}
-      <div className="flex gap-4 font-semibold text-gray-700 mb-4 md:justify-between md:w-10/12 w-11/12 mx-auto flex-wrap">
+      <div className="flex gap-20 font-semibold text-gray-700 mb-4 justify-center md:w-full md:px-4 py-4 w-11/12 mx-auto flex-wrap bg-green-300">
         <p
-          className="bg-orange-300 px-4 py-1 rounded-full cursor-pointer"
+          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.phool_bangla)}
         >
           Phool Bangla
         </p>
 
         <p
-          className="bg-orange-300 px-4 py-1 rounded-full cursor-pointer"
+          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.darbaar)}
         >
           Darbaar
         </p>
 
-        <p className="bg-orange-300 px-4 py-1 rounded-full cursor-pointer"
+        <p className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.gate)}
         >
           Gate
         </p>
 
-        <p className="bg-orange-300 px-4 py-1 rounded-full cursor-pointer"
+        <p className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.jhoomar)}
         >
           Jhoomar
         </p>
 
-        <p className="bg-orange-300 px-4 py-1 rounded-full cursor-pointer"
+        <p className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.singhasan)}
         >
           Singhasan
         </p>
 
-        <p className="bg-orange-300 px-4 py-1 rounded-full cursor-pointer"
+        <p className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.jaimala)}
         >
           Jaimala
         </p>
 
-        <p className="bg-orange-300 px-4 py-1 rounded-full cursor-pointer"
+        <p className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
           onClick={() => setData(categories.jewellery)}
         >
           Jewellery
