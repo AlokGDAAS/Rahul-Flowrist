@@ -4,6 +4,8 @@ import { MdOutlineCall } from "react-icons/md";
 
 const Card = ({ img, name, alt = "" }) => {
   const [open, setOpen] = useState(false);
+  const phoneNumber = "+918279714800"; // your number here
+  const whatsappMessage = "Hello! I’d like to know more about your services.";
 
   // Handle browser back button
   useEffect(() => {
@@ -43,14 +45,23 @@ const Card = ({ img, name, alt = "" }) => {
         {/* contact */}
         <div className="flex justify-between px-2 text-white py-4">
           <div className="flex items-center gap-2 bg-blue-800 px-4 py-2 rounded-full cursor-pointer shadow-lg">
-            <MdOutlineCall className="text-xl"/>
-            <p className=" font-bold">Call Us</p>
+            <a href={`tel:${phoneNumber}`}>
+              <MdOutlineCall className="text-xl" />
+              <p className=" font-bold">Call Us</p>
+            </a>
           </div>
           <div className="flex items-center gap-2 bg-[#25D366] px-4 py-2 rounded-full cursor-pointer shadow-lg">
-            
-            <SiWhatsapp className="text-xl"/>
-            <p className=" font-bold">WhatsApp</p>
-            
+            <a
+              href={`https://wa.me/${phoneNumber.replace(
+                /[^0-9]/g,
+                ""
+              )}?text=${encodeURIComponent(whatsappMessage)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiWhatsapp className="text-xl" />
+              <p className=" font-bold">WhatsApp</p>
+            </a>
           </div>
         </div>
       </div>
