@@ -942,3 +942,13 @@ export const jaimala_data = [
 
         }
     ]
+
+    export const jewellery_data =[
+        {
+            id:1,
+            img:"Jewellery/j_1.png",
+            alt:"",
+            name:"Jaimala",
+            bg:"blue-400"
+        },
+    ]

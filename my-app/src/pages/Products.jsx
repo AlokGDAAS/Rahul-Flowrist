@@ -8,6 +8,7 @@ import {
   jhoomar_data,
   jaimala_data,
   videos_data,
+  jewellery_data
 } from "../components/Data";
 import Video_card from "../components/Video_card";
 
@@ -20,7 +21,7 @@ const Products = () => {
     jhoomar: { head: "Jhoomar", d: jhoomar_data },
     singhasan: { head: "Singhasan", d: singhasan_data },
     jaimala: { head: "Jaimala", d: jaimala_data },
-    jewellery: { head: "Jewellery", d: [] },
+    jewellery: { head: "Jewellery", d: jewellery_data },
     videos: { head: "Videos", d: videos_data },
   };
 
@@ -28,7 +29,7 @@ const Products = () => {
   const [data, setData] = useState(categories.phool_bangla);
 
   return (
-    <div className="bg-blue-400 py-8 rounded-lg w-[95vw] mx-auto px-2">
+    <div className="bg-blue-400 py-2 rounded-lg w-[95vw] mx-auto px-2">
       {/* Category Buttons */}
       <div className="flex md:gap-20 gap-4 font-semibold text-gray-700 mb-4 justify-center px-4 py-4 mx-auto flex-wrap bg-green-300 rounded shadow-lg">
         <div
@@ -106,7 +107,7 @@ const Products = () => {
               />
             ))
           : data.d.map((item) => (
-              <Card key={item.id} img={item.img} alt={item.alt} name={item.name} />
+              <Card key={item.id} img={item.img} alt={item.alt} name={item.name} bg={item.bg} />
             ))}
       </div>
     </div>
