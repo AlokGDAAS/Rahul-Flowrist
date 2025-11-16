@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { SiWhatsapp } from "react-icons/si";
 import { MdOutlineCall } from "react-icons/md";
 
-const Card = ({ img, name, alt = "" ,bg=""}) => {
+const Card = ({ img, name, alt = "", bg = "" }) => {
   const [open, setOpen] = useState(false);
   const phoneNumber = "+918279714800"; // your number here
   const whatsappMessage = "Hello! I’d like to know more about your services.";
@@ -34,7 +34,7 @@ const Card = ({ img, name, alt = "" ,bg=""}) => {
           <img
             src={img}
             alt={alt}
-            className={`md:w-80 rounded-t cursor-pointer bg-${bg}`}
+            className={`md:w-80 rounded-t cursor-pointer inset-0 bg-black/80 backdrop-blur-sm`}
             onClick={() => setOpen(true)}
           />
         </div>

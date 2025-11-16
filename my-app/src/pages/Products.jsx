@@ -8,7 +8,8 @@ import {
   jhoomar_data,
   jaimala_data,
   videos_data,
-  jewellery_data
+  jewellery_data,
+  cars_data
 } from "../components/Data";
 import Video_card from "../components/Video_card";
 
@@ -22,6 +23,7 @@ const Products = () => {
     singhasan: { head: "Singhasan", d: singhasan_data },
     jaimala: { head: "Jaimala", d: jaimala_data },
     jewellery: { head: "Jewellery", d: jewellery_data },
+    cars: { head: "Car", d: cars_data },
     videos: { head: "Videos", d: videos_data },
   };
 
@@ -79,6 +81,13 @@ const Products = () => {
           onClick={() => setData(categories.jewellery)}
         >
           Jewellery
+        </div>
+
+        <div
+          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+          onClick={() => setData(categories.cars)}
+        >
+          Cars
         </div>
 
         <div

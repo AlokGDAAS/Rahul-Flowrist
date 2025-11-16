@@ -946,9 +946,328 @@ export const jaimala_data = [
     export const jewellery_data =[
         {
             id:1,
-            img:"Jewellery/j_1.png",
+            img:"Jewellery/j_1.jpg",
             alt:"",
-            name:"Jaimala",
-            bg:"blue-400"
+            name:"Jewellery",
+            bg:""
+
+        
+        },
+
+
+        {
+            id:21,
+            img:"Jewellery/j_21.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:22,
+            img:"Jewellery/j_22.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:23,
+            img:"Jewellery/j_23.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:24,
+            img:"Jewellery/j_24.webp",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:2,
+            img:"Jewellery/j_2_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:"black"            
+        },
+        {
+            id:3,
+            img:"Jewellery/j_3.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:4,
+            img:"Jewellery/j_4.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:5,
+            img:"Jewellery/j_5_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:"black"            
+        },
+        {
+            id:6,
+            img:"Jewellery/j_6_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:"black"            
+        },
+        {
+            id:7,
+            img:"Jewellery/j_7_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:8,
+            img:"Jewellery/j_8.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:9,
+            img:"Jewellery/j_9_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:10,
+            img:"Jewellery/j_10_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:11,
+            img:"Jewellery/j_11_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:12,
+            img:"Jewellery/j_12_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:13,
+            img:"Jewellery/j_13_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:14,
+            img:"Jewellery/j_14_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:15,
+            img:"Jewellery/j_15_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:16,
+            img:"Jewellery/j_16_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:17,
+            img:"Jewellery/j_17_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:18,
+            img:"Jewellery/j_18_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:19,
+            img:"Jewellery/j_19_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+
+
+
+
+    ]
+
+        export const cars_data =[
+        {
+            id:1,
+            img:"Cars/c_1.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:2,
+            img:"Cars/c_2.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:3,
+            img:"Cars/c_3.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:4,
+            img:"Cars/c_4.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:5,
+            img:"Cars/c_5.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:6,
+            img:"Cars/c_6.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:7,
+            img:"Cars/c_7.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:8,
+            img:"Cars/c_8.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:9,
+            img:"Cars/c_9.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:10,
+            img:"Cars/c_10.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:11,
+            img:"Cars/c_11.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:12,
+            img:"Cars/c_12.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:13,
+            img:"Cars/c_13.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:14,
+            img:"Cars/c_14.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:15,
+            img:"Cars/c_15.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
         },
     ]
