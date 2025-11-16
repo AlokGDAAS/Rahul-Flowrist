@@ -295,6 +295,24 @@ export   const phool_bangla_data = [
             alt:"",
             name:"Khatu Shyam Darbaar"
         },
+        {
+            id:26,
+            img:"Phool_Bangla/bangla_26.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:27,
+            img:"Phool_Bangla/bangla_27.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
+        {
+            id:28,
+            img:"Phool_Bangla/bangla_28.jpg",
+            alt:"",
+            name:"Khatu Shyam Darbaar"
+        },
     ]
 
 export   const singhasan_data = [
@@ -764,7 +782,7 @@ export const jaimala_data = [
         {
             id:1,
             src:"Videos/v_1.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -774,7 +792,7 @@ export const jaimala_data = [
         {
             id:2,
             src:"Videos/v_2.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -784,7 +802,7 @@ export const jaimala_data = [
         {
             id:3,
             src:"Videos/v_3.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -794,7 +812,7 @@ export const jaimala_data = [
         {
             id:4,
             src:"Videos/v_4.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -804,7 +822,7 @@ export const jaimala_data = [
         {
             id:5,
             src:"Videos/v_5.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -814,7 +832,7 @@ export const jaimala_data = [
         {
             id:6,
             src:"Videos/v_6.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -824,7 +842,7 @@ export const jaimala_data = [
         {
             id:7,
             src:"Videos/v_7.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -834,7 +852,7 @@ export const jaimala_data = [
         {
             id:8,
             src:"Videos/v_8.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -844,7 +862,7 @@ export const jaimala_data = [
         {
             id:9,
             src:"Videos/v_9.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -854,7 +872,7 @@ export const jaimala_data = [
         {
             id:10,
             src:"Videos/v_10.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -864,7 +882,7 @@ export const jaimala_data = [
         {
             id:11,
             src:"Videos/v_11.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -874,7 +892,7 @@ export const jaimala_data = [
         {
             id:12,
             src:"Videos/v_12.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -884,7 +902,7 @@ export const jaimala_data = [
         {
             id:13,
             src:"Videos/v_13.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -894,7 +912,7 @@ export const jaimala_data = [
         {
             id:14,
             src:"Videos/v_14.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -904,7 +922,7 @@ export const jaimala_data = [
         {
             id:15,
             src:"Videos/v_15.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -914,7 +932,7 @@ export const jaimala_data = [
         {
             id:16,
             src:"Videos/v_16.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -924,7 +942,7 @@ export const jaimala_data = [
         {
             id:17,
             src:"Videos/v_17.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -934,7 +952,7 @@ export const jaimala_data = [
         {
             id:18,
             src:"Videos/v_18.mp4",
-            autoplay:"false",
+            autoplay:false,
             loop:"false",
             muted:"false",
             poster:""
@@ -982,6 +1000,70 @@ export const jaimala_data = [
         {
             id:24,
             img:"Jewellery/j_24.webp",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:25,
+            img:"Jewellery/j_25.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:26,
+            img:"Jewellery/j_26.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:27,
+            img:"Jewellery/j_27.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:28,
+            img:"Jewellery/j_28.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:29,
+            img:"Jewellery/j_29.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:30,
+            img:"Jewellery/j_30.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:31,
+            img:"Jewellery/j_31.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:32,
+            img:"Jewellery/j_32_no_bg.png",
             alt:"",
             name:"Jewellery",
             bg:""
@@ -1128,6 +1210,55 @@ export const jaimala_data = [
             bg:""
             
         },
+        {
+            id:33,
+            img:"Jewellery/j_33.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:34,
+            img:"Jewellery/j_34.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:35,
+            img:"Jewellery/j_35.jpg",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:36,
+            img:"Jewellery/j_36_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:37,
+            img:"Jewellery/j_37.webp",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+        {
+            id:38,
+            img:"Jewellery/j_38_no_bg.png",
+            alt:"",
+            name:"Jewellery",
+            bg:""
+            
+        },
+
 
 
 
@@ -1270,4 +1401,95 @@ export const jaimala_data = [
 
         
         },
+        {
+            id:16,
+            img:"Cars/c_16.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:17,
+            img:"Cars/c_17.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:18,
+            img:"Cars/c_18.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:19,
+            img:"Cars/c_19.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:20,
+            img:"Cars/c_20.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:21,
+            img:"Cars/c_21.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:22,
+            img:"Cars/c_22.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:23,
+            img:"Cars/c_23.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:24,
+            img:"Cars/c_24.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+        {
+            id:25,
+            img:"Cars/c_25.jpg",
+            alt:"",
+            name:"Car",
+            bg:""
+
+        
+        },
+
     ]
