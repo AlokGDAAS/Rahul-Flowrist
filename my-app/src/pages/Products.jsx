@@ -33,7 +33,7 @@ const Products = () => {
   return (
     <div className="rounded-lg  mx-auto px-2 relative">
       {/* Category Buttons */}
-      <div className="flex md:gap-10 gap-2 font-semibold text-gray-700 mb-4 justify-center py-2 mx-auto flex-wrap rounded text-xs shadow-lg sticky top-32 z-10  bg-yellow-300">
+      <div className="flex md:gap-10 gap-2 font-semibold text-gray-700 mb-4 justify-center py-2 mx-auto flex-wrap rounded text-xs shadow-lg sticky top-32 md:top-43 z-10  bg-yellow-300">
         <div
           className="bg-blue-100 px-2 py-1 shadow-lg cursor-pointer"
           onClick={() => setData(categories.phool_bangla)}

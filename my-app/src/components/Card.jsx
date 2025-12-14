@@ -29,12 +29,12 @@ const Card = ({ img, name, alt = "", bg = "" }) => {
 
   return (
     <>
-      <div className="rounded h-fit  p-1 shadow-2xl">
+      <div className="rounded h-fit  p-1 shadow-2xl w-[90vw]">
         <div>
           <img
             src={img}
             alt={alt}
-            className={`md:w-80 rounded-t cursor-pointer inset-0 bg-black/80 backdrop-blur-sm max-h-[50vh]`}
+            className={`md:w-80 rounded-t cursor-pointer inset-0 bg-black/80 backdrop-blur-sm max-h-[50vh] w-auto mx-auto`}
             onClick={() => setOpen(true)}
           />
         </div>
