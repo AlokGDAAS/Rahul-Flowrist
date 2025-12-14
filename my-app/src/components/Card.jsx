@@ -34,7 +34,7 @@ const Card = ({ img, name, alt = "", bg = "" }) => {
           <img
             src={img}
             alt={alt}
-            className={`md:w-80 rounded-t cursor-pointer inset-0 bg-black/80 backdrop-blur-sm`}
+            className={`md:w-80 rounded-t cursor-pointer inset-0 bg-black/80 backdrop-blur-sm max-h-[50vh]`}
             onClick={() => setOpen(true)}
           />
         </div>
