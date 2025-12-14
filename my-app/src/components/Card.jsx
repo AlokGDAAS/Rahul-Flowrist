@@ -29,7 +29,7 @@ const Card = ({ img, name, alt = "", bg = "" }) => {
 
   return (
     <>
-      <div className="  rounded h-fit  border border-gray-400 p-1 shadow-lg bg-blue-100">
+      <div className="rounded h-fit  p-1 shadow-2xl">
         <div>
           <img
             src={img}
@@ -40,14 +40,14 @@ const Card = ({ img, name, alt = "", bg = "" }) => {
         </div>
 
         <div className="flex justify-center items-end">
-          <p className="text-gray-600 font-bold text-lg text-center">{name}</p>
+          <p className="text-gray-600 font-bold text-sm pt-2 text-center">{name}</p>
         </div>
         {/* contact */}
         <div className="flex justify-between px-2 text-white py-4">
           <a href={`tel:${phoneNumber}`}>
             <div className="flex items-center gap-2 bg-blue-800 px-4 py-2 rounded-full cursor-pointer shadow-lg">
               <MdOutlineCall className="text-xl" />
-              <p className=" font-bold">Call Us</p>
+              <p className=" font-bold text-sm">Call Us</p>
             </div>
           </a>
           <a
@@ -60,7 +60,7 @@ const Card = ({ img, name, alt = "", bg = "" }) => {
           >
             <div className="flex items-center gap-2 bg-[#25D366] px-4 py-2 rounded-full cursor-pointer shadow-lg">
               <SiWhatsapp className="text-xl" />
-              <p className=" font-bold">WhatsApp</p>
+              <p className=" font-bold text-sm">WhatsApp</p>
             </div>
           </a>
         </div>

@@ -31,67 +31,67 @@ const Products = () => {
   const [data, setData] = useState(categories.phool_bangla);
 
   return (
-    <div className="bg-blue-400 py-2 rounded-lg w-[95vw] mx-auto px-2">
+    <div className="rounded-lg  mx-auto px-2 relative">
       {/* Category Buttons */}
-      <div className="flex md:gap-10 gap-4 font-semibold text-gray-700 mb-4 justify-center px-4 py-4 mx-auto flex-wrap bg-green-300 rounded shadow-lg">
+      <div className="flex md:gap-10 gap-2 font-semibold text-gray-700 mb-4 justify-center py-2 mx-auto flex-wrap rounded text-xs shadow-lg sticky top-32 z-10  bg-yellow-300">
         <div
-          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+          className="bg-blue-100 px-2 py-1 shadow-lg cursor-pointer"
           onClick={() => setData(categories.phool_bangla)}
         >
           Phool Bangla
         </div>
 
         <div
-          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+          className="bg-blue-100 px-2 py-1 shadow-lg cursor-pointer"
           onClick={() => setData(categories.darbaar)}
         >
           Darbaar
         </div>
 
         <div
-          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+          className="bg-blue-100 px-2 py-1 shadow-lg cursor-pointer"
           onClick={() => setData(categories.gate)}
         >
           Gate
         </div>
 
         <div
-          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+          className="bg-blue-100 px-2 py-1 shadow-lg cursor-pointer"
           onClick={() => setData(categories.jhoomar)}
         >
           Jhoomar
         </div>
 
         <div
-          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+          className="bg-blue-100 px-2 py-1 shadow-lg cursor-pointer"
           onClick={() => setData(categories.singhasan)}
         >
           Singhasan
         </div>
 
         <div
-          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+          className="bg-blue-100 px-2 py-1 shadow-lg cursor-pointer"
           onClick={() => setData(categories.jaimala)}
         >
           Jaimala
         </div>
 
         <div
-          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+          className="bg-blue-100 px-2 py-1 shadow-lg cursor-pointer"
           onClick={() => setData(categories.jewellery)}
         >
           Jewellery
         </div>
 
         <div
-          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+          className="bg-blue-100 px-2 py-1 shadow-lg cursor-pointer"
           onClick={() => setData(categories.cars)}
         >
           Cars
         </div>
 
         <div
-          className="bg-orange-500 px-4 py-1 rounded-full cursor-pointer"
+          className="bg-blue-100 px-2 py-1 shadow-lg cursor-pointer"
           onClick={() => setData(categories.videos)}
         >
           Videos
@@ -100,7 +100,7 @@ const Products = () => {
 
       {/* Category Title */}
       <div>
-        <h1 className="text-center mb-6 text-4xl font-bold text-gray-800">
+        <h1 className="text-center mb-2 text-4xl font-bold text-gray-800 shadow-lg">
           {data.head}
         </h1>
       </div>
